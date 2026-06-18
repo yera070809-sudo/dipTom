@@ -1,0 +1,126 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String  @id @default(cuid())
+  email    String  @unique
+  password String
+  name     String?
+  role     String  @default("STUDENT") // SQLite doesn't support enums
+
+  // Student fields
+  groupId     String?
+  group       Group?       @relation(fields: [groupId], references: [id], name: "GroupStudents")
+  attendances Attendance[]
+
+  // Teacher fields
+  lessons   Lesson[]
+  subjects  Subject[]
+  schedules Schedule[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Group {
+  id        String     @id @default(cuid())
+  name      String     @unique
+  students  User[]     @relation("GroupStudents")
+  lessons   Lesson[]
+  schedules Schedule[]
+}
+
+model Subject {
+  id      String   @id @default(cuid())
+  name    String
+  code    String   @unique
+  lessons Lesson[]
+
+  teachers  User[]
+  schedules Schedule[]
+}
+
+model Lesson {
+  id    String  @id @default(cuid())
+  title String?
+
+  startTime DateTime
+  endTime   DateTime
+
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id])
+
+  teacherId String
+  teacher   User   @relation(fields: [teacherId], references: [id])
+
+  groupId String
+  group   Group  @relation(fields: [groupId], references: [id])
+
+  token         String?
+  previousToken String?
+  isActive      Boolean @default(true)
+
+  // Geolocation
+  requiresLocation Boolean @default(false)
+  latitude         Float?
+  longitude        Float?
+  radius           Int     @default(50) // meters
+
+  attendances Attendance[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Attendance {
+  id String @id @default(cuid())
+
+  lessonId String
+  lesson   Lesson @relation(fields: [lessonId], references: [id])
+
+  studentId String
+  student   User   @relation(fields: [studentId], references: [id])
+
+  status    String   @default("PRESENT")
+  scannedAt DateTime @default(now())
+
+  ipAddress String?
+  userAgent String?
+
+  @@unique([lessonId, studentId])
+}
+
+model Schedule {
+  id        String @id @default(cuid())
+  dayOfWeek Int // 0-6 (Sunday-Saturday)
+  startTime String // "HH:mm"
+  endTime   String // "HH:mm"
+
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id])
+
+  teacherId String
+  teacher   User   @relation(fields: [teacherId], references: [id])
+
+  groupId String
+  group   Group  @relation(fields: [groupId], references: [id])
+
+  location  String?
+  latitude  Float?
+  longitude Float?
+  radius    Int     @default(50)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model SystemSetting {
+  key   String @id
+  value String
+}

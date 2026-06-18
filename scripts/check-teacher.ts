@@ -1,0 +1,1 @@
+import { db } from '../lib/db'; async function main() { const user = await db.user.findUnique({ where: { email: 'teacher@imhere.com' }, include: { teacherProfile: true } }); console.log(JSON.stringify(user, null, 2)); } main();

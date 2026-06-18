@@ -1,0 +1,314 @@
+
+> web@0.1.0 dev
+> next dev
+
+   ▲ Next.js 16.0.10 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.1.13:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 536ms
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 2.1s (compile: 1975ms, proxy.ts: 2ms, render: 92ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 29ms (compile: 1268µs, proxy.ts: 2ms, render: 25ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 26ms (compile: 947µs, proxy.ts: 2ms, render: 23ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 29ms (compile: 934µs, proxy.ts: 2ms, render: 26ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 26ms (compile: 901µs, proxy.ts: 2ms, render: 23ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 929µs, proxy.ts: 2ms, render: 21ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 899µs, proxy.ts: 1965µs, render: 21ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 28ms (compile: 810µs, proxy.ts: 1741µs, render: 26ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 868µs, proxy.ts: 1717µs, render: 22ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 1007µs, proxy.ts: 1965µs, render: 21ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 53ms (compile: 4ms, proxy.ts: 9ms, render: 40ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 49ms (compile: 1058µs, proxy.ts: 3ms, render: 45ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 26ms (compile: 872µs, proxy.ts: 1883µs, render: 23ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 24ms (compile: 778µs, proxy.ts: 1830µs, render: 22ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 25ms (compile: 767µs, proxy.ts: 1841µs, render: 23ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 24ms (compile: 823µs, proxy.ts: 1726µs, render: 22ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 28ms (compile: 804µs, proxy.ts: 2ms, render: 25ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 22ms (compile: 858µs, proxy.ts: 1759µs, render: 20ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 22ms (compile: 871µs, proxy.ts: 1774µs, render: 20ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 23ms (compile: 853µs, proxy.ts: 1736µs, render: 20ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 54ms (compile: 3ms, proxy.ts: 7ms, render: 44ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 35ms (compile: 1212µs, proxy.ts: 3ms, render: 31ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 818µs, proxy.ts: 1902µs, render: 19ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 793µs, proxy.ts: 1614µs, render: 19ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 743µs, proxy.ts: 1496µs, render: 18ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 711µs, proxy.ts: 1618µs, render: 19ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 25ms (compile: 694µs, proxy.ts: 1653µs, render: 22ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 721µs, proxy.ts: 1551µs, render: 18ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 22ms (compile: 708µs, proxy.ts: 1530µs, render: 19ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 731µs, proxy.ts: 1628µs, render: 19ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 64ms (compile: 5ms, proxy.ts: 12ms, render: 47ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 32ms (compile: 862µs, proxy.ts: 2ms, render: 29ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 32ms (compile: 1569µs, proxy.ts: 3ms, render: 27ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 27ms (compile: 762µs, proxy.ts: 1798µs, render: 25ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 23ms (compile: 793µs, proxy.ts: 1883µs, render: 21ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 23ms (compile: 822µs, proxy.ts: 3ms, render: 20ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 742µs, proxy.ts: 3ms, render: 20ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 23ms (compile: 2ms, proxy.ts: 1707µs, render: 20ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 34ms (compile: 729µs, proxy.ts: 1593µs, render: 31ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 23ms (compile: 734µs, proxy.ts: 1677µs, render: 21ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 55ms (compile: 3ms, proxy.ts: 11ms, render: 41ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 43ms (compile: 847µs, proxy.ts: 2ms, render: 40ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 795µs, proxy.ts: 3ms, render: 20ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 23ms (compile: 719µs, proxy.ts: 1778µs, render: 21ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 743µs, proxy.ts: 1739µs, render: 19ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 703µs, proxy.ts: 1903µs, render: 21ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 826µs, proxy.ts: 1630µs, render: 22ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 22ms (compile: 719µs, proxy.ts: 1861µs, render: 19ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 24ms (compile: 700µs, proxy.ts: 1541µs, render: 22ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 21ms (compile: 781µs, proxy.ts: 1600µs, render: 19ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 56ms (compile: 3ms, proxy.ts: 9ms, render: 45ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+ GET /teacher 307 in 33ms (compile: 918µs, proxy.ts: 2ms, render: 30ms)
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 45ms (compile: 1290µs, proxy.ts: 6ms, render: 38ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 33ms (compile: 858µs, proxy.ts: 2ms, render: 30ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 34ms (compile: 973µs, proxy.ts: 3ms, render: 30ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 36ms (compile: 929µs, proxy.ts: 4ms, render: 30ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 32ms (compile: 977µs, proxy.ts: 4ms, render: 28ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 33ms (compile: 3ms, proxy.ts: 2ms, render: 28ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 65ms (compile: 1045µs, proxy.ts: 4ms, render: 60ms)
+[Auth Debug] Path: /teacher, LoggedIn: true, Role: TEACHER
+[Auth Debug] Protected Route Access - Role Check: TEACHER
+[Auth Debug] Path: /login, LoggedIn: true, Role: TEACHER
+[Auth Debug] Redirecting logged in user from login page. Role: TEACHER
+ GET /teacher 307 in 40ms (compile: 964µs, proxy.ts: 3ms, render: 36ms)
+ ✓ Compiled in 61ms
+ ✓ Compiled in 77ms
